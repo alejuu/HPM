@@ -33,6 +33,16 @@
       }
     ]
   },
+  { 
+    "name": "t:settings_schema.bg.name",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "t:settings_schema.bg.settings.bg_image.label"
+      }
+    ]
+  },
   {
     "name": "t:settings_schema.colors.name",
     "settings": [
