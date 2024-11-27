@@ -57,12 +57,12 @@
     "collection_card_text_alignment": "left",
     "collection_card_color_scheme": "scheme-2",
     "collection_card_border_thickness": 0,
-    "collection_card_border_opacity": 10,
+    "collection_card_border_opacity": 0,
     "collection_card_corner_radius": 0,
     "collection_card_shadow_opacity": 0,
-    "collection_card_shadow_horizontal_offset": 0,
-    "collection_card_shadow_vertical_offset": 4,
-    "collection_card_shadow_blur": 5,
+    "collection_card_shadow_horizontal_offset": -40,
+    "collection_card_shadow_vertical_offset": -40,
+    "collection_card_shadow_blur": 0,
     "blog_card_style": "standard",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "left",
@@ -140,13 +140,13 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#222222",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#edffec",
+          "button": "#61e786",
+          "button_label": "#222222",
+          "secondary_button_label": "#edffec",
+          "shadow": "#222222"
         }
       },
       "scheme-2": {
