@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
-  padding-top: 1rem;
 }
 
 .active-facets-mobile {
@@ -49,7 +48,6 @@
   display: block;
   color: rgba(var(--color-foreground), 0.85);
   font-size: 1.4rem;
-  margin: 0 2rem 0 0;
 }
 
 .facet-filters__summary {
@@ -109,7 +107,7 @@
   border-radius: 0;
   font-size: 1.4rem;
   height: auto;
-  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  line-height: calc(1 + 0.3 / var(--font-body-scale));
   margin: 0;
   padding-left: 0;
   padding-right: 1.75rem;
@@ -167,9 +165,7 @@
 
 .facets__form {
   display: grid;
-  gap: 0 3.5rem;
   grid-template-columns: 1fr max-content max-content;
-  margin-bottom: 0.5rem;
 }
 
 .facets__wrapper {
@@ -179,13 +175,14 @@
   grid-row: 1;
   display: flex;
   flex-wrap: wrap;
+  width: fit-content;
 }
 
 .facets__heading {
   display: block;
   color: rgba(var(--color-foreground), 0.85);
   font-size: 1.4rem;
-  margin: -1.5rem 2rem 0 0;
+  padding: 1rem;
 }
 
 .facets__reset {
@@ -193,14 +190,13 @@
 }
 
 .facets__disclosure {
-  margin-right: 3.5rem;
+  padding: 1rem;
 }
 
 .facets__summary {
   color: rgba(var(--color-foreground), 0.75);
   font-size: 1.4rem;
   padding: 0 1.75rem 0 0;
-  margin-bottom: 1.5rem;
 }
 
 .facets__summary .svg-wrapper {
@@ -592,22 +588,19 @@ button.facets__button {
   width: 100%;
   grid-column: 1 / -1;
   grid-row: 2;
-  margin-top: -0.5rem;
 }
 
 .active-facets__button {
   display: block;
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   text-decoration: none;
+  margin-top: 0.25rem;
 }
 
 span.active-facets__button-inner {
   color: rgb(var(--color-foreground));
   box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
-  border-radius: 2.6rem;
   font-size: 1rem;
   min-height: 0;
   min-width: 0;
@@ -625,7 +618,14 @@ span.active-facets__button-inner:after {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
+  margin: 0.25rem 0 0 0.25rem;
+}
+
+@media screen and (min-width: 750px) {
+  .active-facets__button-wrapper,
+  .active-facets__button {
+    margin-top: 0.5rem;
+  }
 }
 
 .active-facets__button-wrapper * {
@@ -633,10 +633,6 @@ span.active-facets__button-inner:after {
 }
 
 @media screen and (min-width: 990px) {
-  .active-facets__button {
-    margin-right: 1.5rem;
-  }
-
   .active-facets__button-wrapper *,
   span.active-facets__button-inner {
     font-size: 1.4rem;
@@ -644,10 +640,6 @@ span.active-facets__button-inner:after {
 }
 
 @media screen and (max-width: 989px) {
-  .active-facets {
-    margin: 0 -1.2rem -1.2rem;
-  }
-
   .active-facets__button,
   .active-facets__button-remove {
     margin: 0;
@@ -657,11 +649,6 @@ span.active-facets__button-inner:after {
   span.active-facets__button-inner {
     padding-bottom: 0.1rem;
     padding-top: 0.1rem;
-  }
-
-  .active-facets__button-wrapper {
-    padding-top: 0;
-    margin-left: 1.2rem;
   }
 }
 

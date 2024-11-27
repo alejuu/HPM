@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* global */
+
+/* sections */
+.shopify-section {
+  @apply twcss-m-1 lg:twcss-m-2;
+}
+.announcement-bar-section {
+  @apply twcss-mb-0;
+}
+.shopify-section-group-footer-group {
+  @apply twcss-mt-0;
+}
