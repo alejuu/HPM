@@ -18,7 +18,7 @@
       {
         "type": "range",
         "id": "logo_width",
-        "min": 50,
+        "min": 10,
         "max": 300,
         "step": 10,
         "default": 100,
@@ -30,6 +30,16 @@
         "id": "favicon",
         "label": "t:settings_schema.logo.settings.favicon.label",
         "info": "t:settings_schema.logo.settings.favicon.info"
+      }
+    ]
+  },
+  { 
+    "name": "t:settings_schema.bg.name",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "t:settings_schema.bg.settings.bg_image.label"
       }
     ]
   },
@@ -101,6 +111,7 @@
       }
     ]
   },
+  
   {
     "name": "t:settings_schema.typography.name",
     "settings": [
@@ -154,10 +165,10 @@
       {
         "type": "range",
         "id": "page_width",
-        "min": 1200,
-        "max": 1600,
+        "min": 1920,
+        "max": 2560,
         "step": 10,
-        "default": 1440,
+        "default": 1920,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
@@ -182,20 +193,20 @@
       {
         "type": "range",
         "id": "spacing_grid_horizontal",
-        "min": 4,
+        "min": 0,
         "max": 40,
-        "step": 4,
-        "default": 8,
+        "step": 5,
+        "default": 5,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_horizontal.label"
       },
       {
         "type": "range",
         "id": "spacing_grid_vertical",
-        "min": 4,
+        "min": 0,
         "max": 40,
-        "step": 4,
-        "default": 8,
+        "step": 5,
+        "default": 5,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
       }
