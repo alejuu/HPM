@@ -154,6 +154,14 @@
         }
       }
     },
+    "bg": {
+      "name": "Background image",
+      "settings": {
+        "bg_image": {
+          "label": "Background image"
+        }
+      }
+    },
     "brand_information": {
       "name": "Brand information",
       "settings": {
@@ -660,7 +668,7 @@
           "settings": {
             "collection": {
               "label": "Collection"
-            }
+            },
           }
         }
       },
@@ -777,6 +785,9 @@
         },
         "enable_desktop_slider": {
           "label": "Enable carousel on desktop"
+        },
+        "remove_background": {
+          "label": "Remove background"
         },
         "full_width": {
           "label": "Make products full width"
@@ -1421,6 +1432,9 @@
           },
           "label": "Content layout"
         },
+        "remove_background": {
+          "label": "Remove background"
+        },
         "mobile_content_alignment": {
           "options__1": {
             "label": "Left"
@@ -1825,6 +1839,9 @@
         },
         "enable_sorting": {
           "label": "Enable sorting"
+        },
+        "enable_product_count":{
+          "label": "Show product count"
         },
         "image_ratio": {
           "label": "Image ratio",
