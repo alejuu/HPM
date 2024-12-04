@@ -647,7 +647,7 @@ summary .icon-caret {
   position: absolute;
   height: 0.6rem;
   right: 1.5rem;
-  top: calc(50% - 0.2rem);
+  top: calc(50% - 0.8rem);
 }
 
 summary::-webkit-details-marker {
@@ -2082,7 +2082,7 @@ input[type='checkbox'] {
   color: rgb(var(--color-button-text));
   height: 1.7rem;
   width: 1.7rem;
-  border-radius: 100%;
+  border-radius: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2529,8 +2529,8 @@ input[type='checkbox'] {
 }
 
 .header__icon .svg-wrapper {
-  width: 44px;
-  height: 44px;
+  width: 40.2px;
+  height: 40.2px;
 }
 
 .header__icon::after {
@@ -2551,8 +2551,6 @@ input[type='checkbox'] {
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
   padding: 0;
 }
 
@@ -2937,11 +2935,11 @@ details-disclosure > details {
   background: var(--gradient-background);
   background: rgba(var(--color-background), 0.75);
   background-attachment: fixed;
-  border-radius: 1px;
+  border-radius: 0;
   box-shadow: 0 4px 30px rgba(var(--color-background) 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(var(--color-foreground), 0.3) !important;
+  border: 2px solid rgba(var(--color-foreground), 0.3) !important;
 }
 
 @media screen and (forced-colors: active) {

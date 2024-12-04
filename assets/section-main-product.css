@@ -469,7 +469,7 @@ a.product__text {
 .product__media-icon,
 .thumbnail__badge {
   background-color: rgb(var(--color-background));
-  border-radius: 50%;
+  border-radius: 0;
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   color: rgb(var(--color-foreground));
   display: flex;
@@ -714,7 +714,7 @@ a.product__text {
 .product-media-modal__toggle {
   background-color: rgb(var(--color-background));
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
-  border-radius: 50%;
+  border-radius: 0;
   color: rgba(var(--color-foreground), 0.55);
   display: flex;
   align-items: center;
