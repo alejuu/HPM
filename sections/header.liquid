@@ -277,6 +277,10 @@
           </div>
         {%- endif -%}
       </a>
+
+      {%- if settings.cart_type == 'drawer' -%}
+        {%- render 'cart-drawer' -%}
+      {%- endif -%}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

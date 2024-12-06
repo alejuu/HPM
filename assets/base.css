@@ -2468,6 +2468,15 @@ input[type='checkbox'] {
   .header__heading,
   .header__heading-link {
     text-align: center;
+    padding: 0;
+  }
+
+  .header__heading-link {
+    padding: 0.5rem;
+  }
+
+  .header__heading-logo {
+    width: 30px;
   }
 
   .header--mobile-left .header__heading,
@@ -2559,7 +2568,7 @@ input[type='checkbox'] {
 }
 
 .header__icon--menu[aria-expanded='true']::before {
-  content: '';
+  /* content: ''; */
   top: 100%;
   left: 0;
   height: calc(

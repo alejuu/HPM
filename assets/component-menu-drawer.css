@@ -33,11 +33,10 @@ menu-drawer > details[open] > summary::before {
   transform: translateX(-100%);
   visibility: hidden;
   z-index: 3;
-  left: 0;
-  top: 100%;
-  width: 100%;
+  left: -2px;
+  top: calc(100% + 4px);
+  width: 400px;
   padding: 0;
-  background-color: rgb(var(--color-background));
   overflow-x: hidden;
   filter: drop-shadow(
     var(--drawer-shadow-horizontal-offset) var(--drawer-shadow-vertical-offset)
@@ -46,11 +45,10 @@ menu-drawer > details[open] > summary::before {
   );
 }
 
-.js .menu-drawer {
-  height: calc(100vh - 100%);
-  height: calc(
-    var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%))
-  );
+@media screen and (max-width: 673px) {
+  .menu-drawer {
+    width: calc(100vw - 9px);
+  }
 }
 
 .js details[open] > .menu-drawer,
