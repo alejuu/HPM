@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/HPM-logo-green.svg",
-    "logo_width": 60,
+    "logo": "shopify://shop_images/HPM-logo-initials.svg",
+    "logo_width": 70,
     "bg_image": "shopify://shop_images/bg-1.jpg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
