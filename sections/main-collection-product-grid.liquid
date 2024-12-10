@@ -103,7 +103,7 @@
       {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
         <aside
           aria-labelledby='verticalTitle'
-          class='facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %} twcss-relative twcss-z-10 !twcss-mb-1 lg:!twcss-mb-2'
+          class='facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %} twcss-relative twcss-z-[1] !twcss-mb-1 lg:!twcss-mb-2'
           id='main-collection-filters'
           data-id='{{ section.id }}'
         >
