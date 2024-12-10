@@ -56,11 +56,6 @@ slider-component.slider-component-full-width {
 
   .slider.slider--mobile .slider__slide {
     margin-bottom: 0;
-    padding-top: max(var(--focus-outline-padding), var(--shadow-padding-top));
-    padding-bottom: max(
-      var(--focus-outline-padding),
-      var(--shadow-padding-bottom)
-    );
     width: 100%;
   }
 
@@ -253,7 +248,6 @@ slider-component.slider-component-full-width {
   scrollbar-color: rgb(var(--color-foreground))
     rgba(var(--color-foreground), 0.04);
   -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .slider::-webkit-scrollbar {
@@ -347,6 +341,9 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media screen and (min-width: 990px) {
