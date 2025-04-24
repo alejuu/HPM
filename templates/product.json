@@ -76,11 +76,10 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Fit",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.shopify.fit | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
