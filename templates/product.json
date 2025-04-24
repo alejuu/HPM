@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Fabric & Care",
             "icon": "none",
-            "content": "{{ product.metafields.shopify.fabric | metafield_tag: field: 'label' }}<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.shopify.fabric | metafield_text: field: 'label' }}</p><p>{{ product.metafields.descriptors.care_guide | metafield_tag }}</p>",
             "page": ""
           }
         },
