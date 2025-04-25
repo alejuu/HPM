@@ -79,7 +79,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
-            "content": "",
+            "content": "<p>Please allow up to 7 business days for your order to ship.</p><p>All sales are final due to the limited edition nature of our products.</p>",
             "page": ""
           }
         }
