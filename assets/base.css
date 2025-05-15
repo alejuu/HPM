@@ -3658,4 +3658,12 @@ details-disclosure > details {
 /* Privacy pages */
 .shopify-policy__container {
   max-width: 100%;
+  background: var(--gradient-background);
+  background: rgba(var(--color-background), 0.75);
+  background-attachment: fixed;
+  border-radius: 0;
+  box-shadow: 0 4px 30px rgba(var(--color-background) 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(var(--color-foreground), 0.3) !important;
 }
