@@ -690,8 +690,8 @@ video {
 
 .shopify-section-group-footer-group {
   margin-top: 0px;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 990px) {
