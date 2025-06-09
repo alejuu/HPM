@@ -25,8 +25,9 @@
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -115,14 +116,13 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "More for your Soul",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
