@@ -23,6 +23,12 @@
           "type": "title",
           "settings": {}
         },
+        "custom_liquid_Pgwx6z": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.type }}"
+          }
+        },
         "caption": {
           "type": "text",
           "disabled": true,
@@ -88,6 +94,7 @@
       "block_order": [
         "vendor",
         "title",
+        "custom_liquid_Pgwx6z",
         "caption",
         "price",
         "variant_picker",
